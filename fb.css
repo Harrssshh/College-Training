@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+.logo-name{
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    color: blue;
+    font-size: xx-large;
+}
+
+.logo-name h2{
+    font-size: x-large;
+}
+
+.block{
+    width: 100vw;
+    height: 77vh;
+    background-color:rgba(240, 248, 255, 0.631);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block div{
+    margin: 20px;
+}
+
+.fb{
+    height: 35vh;
+    width: 20vw;
+    display: flex;
+    background-color:rgba(245, 245, 245, 0.277);
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px;
+}
+
+.fb input{
+    padding: 5px;
+    width: 90%;
+    height: 35px;
+    margin: 7px 0px;
+}
+
+.fb button{
+    width: 90%;
+}
+#btn{
+    background-color: blue;
+    border-radius: 5px;
+    height: 35px;
+    border-color: blue;
+    font-weight: bold;
+    color: white;
+}
+#btn2{
+    background-color:rgb(44, 248, 26);
+    border-radius: 5px;
+    border-color:rgba(54, 255, 47, 0);
+    height: 35px;
+    font-weight: bold;
+    color: white;
+}
+a{
+    color: blue;
+}
+.logo-name h1{
+    width: 20vw;
+}
+#line2{
+    width: 30vw;
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+}
+@media((max-width:600px)){
+    .fb{
+        height: 37vh;
+        width:90vw;
+        display: flex;
+        background-color:rgba(245, 245, 245, 0.277);
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        border-radius: 10px;
+        
+    }
+    .block{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #line2{
+        height: 40vh;
+        width: 90vw;
+    }
+    .fb input{
+        height: 15%;
+        width: 90%;
+        border: 1px;
+        border-color:rgba(245, 245, 245, 0.277);
+    }
+    #btn{
+        height:15% ;
+        width: 94%;
+        font-weight: bold;
+        color: white;
+    }
+    #btn2{
+        height: 15%;
+        width: 94%;
+        font-weight: bold;
+        color: white;
+    }
+    .block div{
+        margin: 55px;
+    }
+
+}

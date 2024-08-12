@@ -1,0 +1,28 @@
+#block{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+}
+#card{
+    width: 350px;
+    height: 360px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#card img{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    margin: 40px 90px;
+
+
+}
+#line{
+    color: brown;
+    text-align: center;
+}
