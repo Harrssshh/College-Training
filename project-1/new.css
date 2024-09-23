@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+input{
+    border: 1px solid black;
+    border-radius:3px;
+}
+.nav-bar{
+    color: white;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    font-size:1.8vh;
+}
+.nav-bar input{
+    height: 1.8vh;
+}
+.nav-bar button{
+    height: 1.5vh;
+    width: 10vh;
+}
+
+.login-form{
+    display: flex;
+}
+
+.login-form input{
+    width: 90%;
+}
+
+.login-form div{
+    padding: 2px;
+}
+.login-form button{
+    height: 35%; 
+    padding: 2px;
+    background-color: rgba(0, 0, 190,1);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.btn button:hover{
+    background-color:  rgba(0, 0, 190,0.5);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    
+    font-size: 1.2vh;
+}
+
+
+.photo{
+    color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100vh;
+    height: 80.5%;
+    font-size:1.1vh;
+}
+
+.main-content{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(to bottom,white,rgba(128, 128, 128, 0.255));
+}
+
+
+.sign-up-form{
+    height: 91.5%;
+    width: 37%;
+    margin: 5px 0px;
+    font-size:1.9vh;
+}
+
+
+.sign-up-form input{
+    margin: 50px 0px;
+    height: 3.5vh;
+    width: 80%;
+    padding: 15px;
+    color: gray;
+    border: 2px solid rgba(139, 139, 139, 0.853);
+    font-size:1.2vh;
+}
+
+.sign-up-form2{
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+}
+.sign-up-form2 input{
+    width: 45%;
+}
+
+.sign-up-form div{
+    margin:10px 0px;
+}
+
+.gender{
+    font-size:2vh;
+    color:black;
+}
+
+.gender input{
+    height: 1.8vh;
+    width: 5vh;
+    margin: 10px 0px;
+}
+
+.terms-and-policies{
+    width: 80%;
+    color: grey;
+    font-size:2vh;
+    margin-top: 15px;
+}
+.terms-and-policies a{
+    color:navy;
+}
+
+.sign-up-form button{
+    background-color: rgb(0, 158, 0);
+    border: 2px solid gray;
+    border-radius: 7px;
+    height: 4.5vh;
+    width: 20vh;
+    color: white;
+    font-weight:700;
+    cursor: pointer;
+    font-size:2vh;
+}
+
+.sign-up-form button:hover{
+    background-color: rgba(0, 158, 0, 0.833);
+}
+
+.photo div{
+    width: 50%;
+}
+
+input:active{
+    background-color: whitesmoke;
+}
+
+.photo div img{
+    width: 100%;
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    font-size: 2vh;
+    background-color: cornsilk;
+    columns: 2;
+}
