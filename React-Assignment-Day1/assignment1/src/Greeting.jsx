@@ -3,7 +3,9 @@ import React from 'react'
 function Greeting({name}) {
   return (
     <div>
-      <h1>Hello ,{name}!</h1>
+      <center>
+      <h1 className='font-bold'>Hello ,{name}!</h1>
+      </center>
     </div>
   )
 }

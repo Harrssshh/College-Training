@@ -20,10 +20,9 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
     </Routes>
-    <Greeting name="Nishant"/>
-    {/* <ProfileCard name="Nishant" age="18" location="Udaipur"/> */}
-    <Status state={true}/>
+    <Greeting name="Harsh Dangi"/>
     <Counter/>
+    <Status state={true}/>
     <FetchApi/>
    </>
   )

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            font-size: 5vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            background-color: #fff;
+            border-collapse: collapse;
+            border: 2px solid #333;
+            margin: 20px auto;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        table {
+            background-image: url('../IMG-20240813-WA0009.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table with Rowspan and Colspan</h1>
+    <table>
+        <tr>
+            <th colspan="2">Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan Cell</td>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Colspan Cell</td>
+        </tr>
+    </table>
+</body>
+</html>

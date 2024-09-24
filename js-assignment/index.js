@@ -1,37 +1,28 @@
-// function delayMessage(msg){
-//     console.log(msg)
-// }
+document.addEventListener('DOMContentLoaded', () => {
+    const usersList = document.getElementById('users-list');
 
-
-// setTimeout(()=>{
-//     delayMessage("hello");
-// },2000);
-
-// function countDown(num,clearInter){
-//     if(num==0)
-//         clearInter();
-//     console.log(num);
-// }
-
-// let num=10;
-// const interval=setInterval(()=>{
-//     countDown(num--,clearInter);
-// },1000)
-
-// const clearInter=()=>{
-//     clearInterval(interval);
-// }
-
-function wait(time){
-    return new Promise((res,rej)=>{
-        setTimeout(()=>{
-            res("hello",time);
+    // Fetch user data from JSONPlaceholder API
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(users => {
+            // Loop through the users and display their data
+            users.forEach(user => {
+                const userItem = document.createElement('li');
+                
+                // Create a formatted string for the user's address
+                const address = `${user.address.suite}, ${user.address.street}, ${user.address.city}, ${user.address.zipcode}`;
+                
+                // Fill the list item with user details
+                userItem.innerHTML = `
+                    <strong>Name:</strong> ${user.name} <br>
+                    <strong>Email:</strong> ${user.email} <br>
+                    <strong>Address:</strong> ${address}
+                `;
+                
+                usersList.appendChild(userItem);
+            });
         })
-    })
-}
-
-const result=wait(2000);
-
-result.then((value)=>{
-    console.log(value);
-})
+        .catch(error => {
+            console.error('Error fetching users:', error);
+        });
+});

@@ -16,7 +16,7 @@ function fetchApi() {
     console.log(Data);
 
     return (
-    <div className='flex gap-4 flex-wrap'>
+    <div className='grid grid-cols-4'>
         {
             Data.map((item,i)=>{
                 return(

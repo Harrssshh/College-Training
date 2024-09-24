@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./pexelsphoto1927507.jpeg);
+    background-image: url(../pexelsphoto1927507.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -340,16 +340,16 @@
 .pic1{
     background-size: cover;
 
-    background-image: url("IMG-20240813-WA0008.jpg");
+    background-image: url("../IMG-20240813-WA0008.jpg");
 }
 .pic2{
     background-size: cover;
 
-    background-image: url("./IMG-20240813-WA0010.jpg");
+    background-image: url("../IMG-20240813-WA0010.jpg");
 }
 .pic3{
     background-size: cover;
-    background-image: url("./IMG-20240813-WA0009.jpg");
+    background-image: url("../IMG-20240813-WA0009.jpg");
 }
 .p8{
     height: 70vh;

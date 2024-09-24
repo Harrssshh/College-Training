@@ -4,7 +4,7 @@ import { Routes,Route,Link} from 'react-router-dom'
 function NavBar() {
   return (
     <>
-    <div className="flex justify-between bg-black text-white h-[5vh] items-center">
+    <div className="flex justify-between bg-slate-700 text-white h-[10vh] items-center">
     <div className="">
         LOGO
     </div>
